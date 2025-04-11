@@ -4,7 +4,7 @@ import cv2
 app = Flask(__name__)
 
 # MJPEG stream URL with authentication
-url = "http://admin:admin123@192.168.1.113:80/cgi-bin/mjpg/video.cgi?channel=1&subtype=1"
+url = "http://admin:admin123@192.168.1.114:80/cgi-bin/mjpg/video.cgi?channel=1&subtype=1"
 
 def generate_frames():
     cap = cv2.VideoCapture(url)

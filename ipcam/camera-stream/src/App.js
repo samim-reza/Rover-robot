@@ -1,10 +1,12 @@
 import React from 'react';
 import CameraStream from './CameraStream';
+import STLViewer from './StlViewer.js';
 
 function App() {
   return (
     <div>
-      <CameraStream />
+      {/* <CameraStream /> */}
+      <STLViewer />
     </div>
   );
 }
